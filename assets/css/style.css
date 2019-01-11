@@ -1,0 +1,118 @@
+body{
+    background: url(../images/background.gif);
+    background-size: 100% 101%;
+}
+
+.head {
+  color: white;
+  width: 300px;
+  height: 42px;
+  background: url(../images/head.gif);
+  margin-left: 1%;
+  margin-top: 1%;
+  font-size: 30px;
+  font-family: "Charm";
+  text-align: center;
+  padding-top: .5%;
+  text-decoration: underline;
+}
+
+.word {
+    width: 450px;
+    height: 300px;
+    background: url(../images/purpback.gif);
+    background-size: 100% 100%;
+    margin-left: 1%;
+    margin-top: 1%;
+    font-family: "Charm";
+    font-size: 18px;
+    color: white;
+}
+
+.compChoice {
+    background: url(../images/grback.gif);
+    background-size: 100%;
+    width: 200px;
+    height: 100px;
+    margin-left: 1%;
+    margin-top: 1%;
+    float: left;
+    color: white;
+    font-family: "Charm";
+}
+
+.score {
+    background: url(../images/bluback.gif);
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    margin-top: 1%;
+    float: right;
+    margin-right: 79%;
+    text-align: center;
+    padding-top: 1%;
+    font-family: "Charm";
+    font-size: 16px;
+    color: white;
+}
+
+.purp {
+    margin-top: 1%;
+    margin-left: 1%;
+    background: url(../images/purp.gif);
+    background-size: 100px 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.blu {
+    margin-top: 1%;
+    margin-left: .2%;
+    background: url(../images/blu.gif);
+    background-size: 100px 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.yel {
+    margin-top: 1%;
+    margin-left: .2%;
+    background: url(../images/yel.gif);
+    background-size: 100px 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.gre {
+    margin-top: 1%;
+    margin-left: .2%;
+    background: url(../images/gr.gif);
+    background-size: 100px 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.total {
+    background: url(../images/yelback.gif);
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-family: "Charm";
+    font-size: 16px;
+}
+
+
+
+.result {
+    background: url(../images/yelback.gif);
+    margin-top: .1%;
+    margin-left: 1%;
+    width: 200px;
+    height: 90px;
+    color: white;
+    font-size: 20px;
+    
+}
+
