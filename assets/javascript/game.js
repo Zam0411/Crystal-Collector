@@ -18,7 +18,7 @@ $( document ).ready(function(){
     var userScore = 0;
     var wins = 0;
     var losses = 0;
-    //
+    
     
     //Refreshes Game Once A Win Or Loss Is Had
     function refresh(){
