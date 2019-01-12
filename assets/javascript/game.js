@@ -18,11 +18,11 @@ $( document ).ready(function(){
     var userScore = 0;
     var wins = 0;
     var losses = 0;
-
-    $('.won').text(wins);
-    $('.loss').text(losses);
-
-    function reset(){
+    //
+    
+    //Refreshes Game Once A Win Or Loss Is Had
+    function refresh(){
+         compDisplay = compChoice[Math.floor(Math.random() * compChoice.length)];
          $('#targetNumber').text(compDisplay);
          purple = userChoice3[Math.floor(Math.random() * userChoice3.length)];
          blue = userChoice1[Math.floor(Math.random() * userChoice1.length)];
@@ -31,20 +31,20 @@ $( document ).ready(function(){
          userScore= 0;
          $('.finalTotal').text(userScore);
     } 
-    
+    //Adds The Wins To The userScore
     function winning(){
         wins++; 
         $('.won').text(wins);
-        reset();
+        refresh();
     }
-    //addes the losses to the userScore
+    //Adds The Losses To The userScore
     function loss(){
         losses++;
         $('.loss').text(losses);
-        reset()
+        refresh()
     }
 
-    //Setting click eventsand results for all buttons
+    //Setting Click Events And Results For All Buttons
     $('.purp').on ('click', function(){
         userScore = userScore + purple;
         $('.finalTotal').text(userScore); 
