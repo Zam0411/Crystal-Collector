@@ -4,14 +4,14 @@ $( document ).ready(function(){
     var compDisplay = compChoice[Math.floor(Math.random() * compChoice.length)];
     $('#targetNumber').text(compDisplay);
     //Array Created For Buttons Number Assignment
-    var userChoice1 = [2, 3, 4];
-    var userChoice2 = [5, 6, 7];
-    var userChoice3 = [8, 9, 10];
-    var userChoice4 = [11, 12, 13];
+    var userChoice1 = [1, 3, 5];
+    var userChoice2 = [6, 4, 2];
+    var userChoice3 = [7, 8, 9];
+    var userChoice4 = [10, 11, 12];
     //Setting Up Numbers For Specific Buttons
-    var purple = userChoice3[Math.floor(Math.random() * userChoice3.length)];
+    var purple = userChoice4[Math.floor(Math.random() * userChoice4.length)];
     var blue = userChoice1[Math.floor(Math.random() * userChoice1.length)];
-    var yellow = userChoice4[Math.floor(Math.random() * userChoice4.length)];
+    var yellow = userChoice3[Math.floor(Math.random() * userChoice3.length)];
     var green = userChoice2[Math.floor(Math.random() * userChoice2.length)];
     
     //Setting User Total and Results
@@ -24,9 +24,9 @@ $( document ).ready(function(){
     function refresh(){
          compDisplay = compChoice[Math.floor(Math.random() * compChoice.length)];
          $('#targetNumber').text(compDisplay);
-         purple = userChoice3[Math.floor(Math.random() * userChoice3.length)];
+         purple = userChoice4[Math.floor(Math.random() * userChoice4.length)];
          blue = userChoice1[Math.floor(Math.random() * userChoice1.length)];
-         yellow = userChoice4[Math.floor(Math.random() * userChoice4.length)];
+         yellow = userChoice3[Math.floor(Math.random() * userChoice3.length)];
          green = userChoice2[Math.floor(Math.random() * userChoice2.length)];
          userScore= 0;
          $('.finalTotal').text(userScore);
